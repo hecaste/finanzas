@@ -13,27 +13,38 @@
     }
 
     h1, h2 {
-      color: black;
+      color: rgb(72, 80, 38);
     }
 
     a {
-      color: brown;
+      color: rgb(150, 150, 144);
       text-decoration: none;
     }
 
     /* Estilos de la barra de navegación */
 
-    header {
-      background-color: rgb(157, 211, 173);
+    header 
+      {
+      background-color: rgb(3, 13, 44);
       padding: 10px;
-    }
-
+      /* Estilos de la imagen de la llave */
+      .contenedor-imagen img {
+      border-radius: 50px;
+      }
+      }
+      .contenedor-imagen
+      { 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* Opcional: establecer un ancho máximo para la imagen */
+      max-width: 100%;
+      }    
     nav ul {
       list-style: none;
       margin: 0;
       padding: 0;
     }
-
     nav li {
       display: inline;
       margin-right: 10px;
@@ -55,8 +66,9 @@
 
     /* Estilos del pie de página */
 
-    footer {
-      background-color: #0944c4;
+    footer 
+    {
+      background-color: rgb(3, 53, 87);
       padding: 10px;
       text-align: center;
       font-size: 14px;
@@ -66,11 +78,13 @@
 </head>
 <body>
   <header>
-    <img src="imagenes/Bittle.png" alt="Digital Bittle" width="50" height="50" border-radius=50%>
     <nav>
+      <div class="contenedor-imagen">
+      <img src="imagenes/llave.jpg" alt="Digital Bittle" width="150" height="150" border-radius="50px">
+      </div>
       <h1>Domina tus Finanzas:Mil consejos y estrategias para llegar a la libertad financiera</h1>
       <ul>
-        <li><a href="#">Inicio</a></li>
+        <li><a href="https://www.facebook.com/hectordaniel.castellanosduran" target="_blank">Inicio</a></li>
         <li><a href="#">Ahorro e inversión</a></li>
         <li><a href="#">Planificación financiera</a></li>
         <li><a href="#">Educación financiera</a></li>
@@ -96,7 +110,7 @@
 
     <section>
       <h2>Ahorro e inversión</h2>
-      <!-- Aquí puedes mostrar publicaciones relacionadas con la Categoría 1 -->
+      CDT's y CDAT, CUENTAS DE AHORROS, DIVISAS, MINIMIZACIÓN DE GASTOS Y DEUDAS  
     </section>
 
     <section>
@@ -105,16 +119,51 @@
     </section>
 
     <section>
-      <h2>Edicación financiera</h2>
+      <h2>Educación financiera</h2>
       <!-- Aquí puedes mostrar publicaciones relacionadas con la Categoría 3 -->
     </section>
+
     <section>
       <h2>Emprendimiento y negocios</h2>
       <!-- Aquí puedes mostrar publicaciones relacionadas con la Categoría 3 -->
     </section>
-  </main>
 
+    <section>
+      <h2>Presupuesto personal</h2>
+      <!-- Aquí puedes mostrar publicaciones relacionadas con la Categoría 3 -->
+    </section>
+
+    <section>
+      <h2>Mercado y análisis económico</h2>
+      <!-- Aquí puedes mostrar publicaciones relacionadas con la Categoría 3 -->
+    </section>
+
+    <section>
+      <h2>Seguros y protección financiera</h2>
+      <!-- Aquí puedes mostrar publicaciones relacionadas con la Categoría 3 -->
+    </section>
+
+    <section>
+      <h2>Impuestos y asuntos legales</h2>
+      <!-- Aquí puedes mostrar publicaciones relacionadas con la Categoría 3 -->
+    </section>
+
+    <section>
+      <h2>Créditos y deudas</h2>
+      <!-- Aquí puedes mostrar publicaciones relacionadas con la Categoría 3 -->
+    </section>
+
+    <section>
+      <h2>Finanzas para la jubilación</h2>
+      <!-- Aquí puedes mostrar publicaciones relacionadas con la Categoría 3 -->
+    </section>
+  </main>
   <footer>
+    <p>Sígueme en redes sociales:</p>
+  <ul>
+    <li><a href="https://www.linkedin.com/in/h%C3%A9ctor-daniel-castellanos-dur%C3%A1n-a427466a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BHVryDB%2FURgiNdrHInSeTxw%3D%3D" target="_blank">linkedln</a></li>
+    <li><a href="https://www.facebook.com/hectordaniel.castellanosduran" target="_blank">Facebook</a></li>
+  </ul>
     <p>© 2023 Digital Bittle. Todos los derechos reservados.</p>
   </footer>
 </body>
